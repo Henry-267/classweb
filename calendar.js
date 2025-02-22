@@ -55,7 +55,7 @@ function switchMonth() {
 // 显示弹窗并加载图片
 function showImage(year, month, day) {
     // 假设图片是从服务器获取的，这里仅展示固定逻辑
-    const imageUrl = `classweb/images/${year}_${month+1}_${day}.jpg`;
+    const imageUrl = `images/${year}_${month+1}_${day}.jpg`;
     
     // 设置显示内容
     document.getElementById('imageDisplay').src = imageUrl;
